@@ -1,0 +1,161 @@
+------------------------------------------------------------
+TimeQuest Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1200mV 85C Model Setup 'clk'
+Slack : -16.890
+TNS   : -398.635
+
+Type  : Slow 1200mV 85C Model Setup 'VGA_Controller:VGA_Sync|pixel_clk_s'
+Slack : -2.244
+TNS   : -48.542
+
+Type  : Slow 1200mV 85C Model Setup 'Debounce2|pll|altpll_component|auto_generated|pll1|clk[0]'
+Slack : 96.511
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'clk'
+Slack : 0.066
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'VGA_Controller:VGA_Sync|pixel_clk_s'
+Slack : 0.347
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'Debounce2|pll|altpll_component|auto_generated|pll1|clk[0]'
+Slack : 0.359
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Recovery 'VGA_Controller:VGA_Sync|pixel_clk_s'
+Slack : -0.758
+TNS   : -14.261
+
+Type  : Slow 1200mV 85C Model Recovery 'Debounce2|pll|altpll_component|auto_generated|pll1|clk[0]'
+Slack : 96.963
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Removal 'VGA_Controller:VGA_Sync|pixel_clk_s'
+Slack : 0.956
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Removal 'Debounce2|pll|altpll_component|auto_generated|pll1|clk[0]'
+Slack : 1.311
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'VGA_Controller:VGA_Sync|pixel_clk_s'
+Slack : -1.000
+TNS   : -34.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'clk'
+Slack : 9.576
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'Debounce2|pll|altpll_component|auto_generated|pll1|clk[0]'
+Slack : 49.755
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Setup 'clk'
+Slack : -15.093
+TNS   : -341.636
+
+Type  : Slow 1200mV 0C Model Setup 'VGA_Controller:VGA_Sync|pixel_clk_s'
+Slack : -1.909
+TNS   : -39.910
+
+Type  : Slow 1200mV 0C Model Setup 'Debounce2|pll|altpll_component|auto_generated|pll1|clk[0]'
+Slack : 96.886
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'clk'
+Slack : 0.019
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'VGA_Controller:VGA_Sync|pixel_clk_s'
+Slack : 0.307
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'Debounce2|pll|altpll_component|auto_generated|pll1|clk[0]'
+Slack : 0.312
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Recovery 'VGA_Controller:VGA_Sync|pixel_clk_s'
+Slack : -0.571
+TNS   : -10.642
+
+Type  : Slow 1200mV 0C Model Recovery 'Debounce2|pll|altpll_component|auto_generated|pll1|clk[0]'
+Slack : 97.278
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Removal 'VGA_Controller:VGA_Sync|pixel_clk_s'
+Slack : 0.871
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Removal 'Debounce2|pll|altpll_component|auto_generated|pll1|clk[0]'
+Slack : 1.191
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'VGA_Controller:VGA_Sync|pixel_clk_s'
+Slack : -1.000
+TNS   : -34.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'clk'
+Slack : 9.574
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'Debounce2|pll|altpll_component|auto_generated|pll1|clk[0]'
+Slack : 49.747
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'clk'
+Slack : -8.967
+TNS   : -206.923
+
+Type  : Fast 1200mV 0C Model Setup 'VGA_Controller:VGA_Sync|pixel_clk_s'
+Slack : -0.840
+TNS   : -14.122
+
+Type  : Fast 1200mV 0C Model Setup 'Debounce2|pll|altpll_component|auto_generated|pll1|clk[0]'
+Slack : 98.041
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'clk'
+Slack : 0.043
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'VGA_Controller:VGA_Sync|pixel_clk_s'
+Slack : 0.186
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'Debounce2|pll|altpll_component|auto_generated|pll1|clk[0]'
+Slack : 0.187
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Recovery 'VGA_Controller:VGA_Sync|pixel_clk_s'
+Slack : 0.007
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Recovery 'Debounce2|pll|altpll_component|auto_generated|pll1|clk[0]'
+Slack : 98.189
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Removal 'VGA_Controller:VGA_Sync|pixel_clk_s'
+Slack : 0.517
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Removal 'Debounce2|pll|altpll_component|auto_generated|pll1|clk[0]'
+Slack : 0.715
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'VGA_Controller:VGA_Sync|pixel_clk_s'
+Slack : -1.000
+TNS   : -34.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'clk'
+Slack : 9.377
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'Debounce2|pll|altpll_component|auto_generated|pll1|clk[0]'
+Slack : 49.785
+TNS   : 0.000
+
+------------------------------------------------------------

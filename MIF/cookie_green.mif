@@ -1,0 +1,22 @@
+DEPTH=16;
+WIDTH=16;
+ADDRESS_RADIX = UNS;
+DATA_RADIX = HEX;
+CONTENT	BEGIN
+	0	:	0000;
+	1	:	03C0;
+	2	:	0DF0;
+	3	:	1FD8;
+	4	:	2FFC;
+	5	:	3DFC;
+	6	:	7FF6;
+	7	:	7FBE;
+	8	:	76FC;
+	9	:	5FFE;
+	10	:	3FFC;
+	11	:	3DBC;
+	12	:	1FF0;
+	13	:	0FF0;
+	14	:	02C0;
+	15	:	0000;
+END;

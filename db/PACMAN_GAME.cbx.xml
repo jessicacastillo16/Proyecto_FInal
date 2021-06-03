@@ -1,0 +1,28 @@
+<?xml version="1.0" ?>
+<LOG_ROOT>
+	<PROJECT NAME="PACMAN_GAME">
+		<CBX_INST_ENTRY INSTANCE_NAME="|PACMAN|Debouncer:Debounce5|my_pll:pll|altpll:altpll_component" CBX_FILE_NAME="my_pll_altpll.v"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|PACMAN|Debouncer:Debounce6|my_pll:pll|altpll:altpll_component" CBX_FILE_NAME="my_pll_altpll.v"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|PACMAN|Pixel_Generator:Pixel_Gen|Cookies_R:GalletaR|altsyncram:altsyncram_component" CBX_FILE_NAME="altsyncram_rvr3.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|PACMAN|Pixel_Generator:Pixel_Gen|GhostBlue:FantasmaB|altsyncram:altsyncram_component" CBX_FILE_NAME="altsyncram_a0s3.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|PACMAN|BCD_CONVERTER:Seven_Seg|Division:Div_Cent|lpm_divide:LPM_DIVIDE_component" CBX_FILE_NAME="lpm_divide_dvr.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|PACMAN|BCD_CONVERTER:Seven_Seg|Division:Div_Mil|lpm_divide:LPM_DIVIDE_component" CBX_FILE_NAME="lpm_divide_dvr.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|PACMAN|Debouncer:Debounce3|my_pll:pll|altpll:altpll_component" CBX_FILE_NAME="my_pll_altpll.v"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|PACMAN|Debouncer:Debounce7|my_pll:pll|altpll:altpll_component" CBX_FILE_NAME="my_pll_altpll.v"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|PACMAN|Pixel_Generator:Pixel_Gen|C_Right_Blue:Laberinto|altsyncram:altsyncram_component" CBX_FILE_NAME="altsyncram_0ds3.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|PACMAN|Pixel_Generator:Pixel_Gen|Pacman_Red:Pacman_Rojo|altsyncram:altsyncram_component" CBX_FILE_NAME="altsyncram_8vr3.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|PACMAN|Pixel_Generator:Pixel_Gen|Pacman_Red:Pacman_Verde|altsyncram:altsyncram_component" CBX_FILE_NAME="altsyncram_8vr3.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|PACMAN|Pixel_Generator:Pixel_Gen|Welcome_R:Welcome_Red|altsyncram:altsyncram_component" CBX_FILE_NAME="altsyncram_s7s3.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|PACMAN|Debouncer:Debounce4|my_pll:pll|altpll:altpll_component" CBX_FILE_NAME="my_pll_altpll.v"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|PACMAN|Debouncer:Debounce8|my_pll:pll|altpll:altpll_component" CBX_FILE_NAME="my_pll_altpll.v"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|PACMAN|Pixel_Generator:Pixel_Gen|GhostGreen:FantasmaG|altsyncram:altsyncram_component" CBX_FILE_NAME="altsyncram_j3s3.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|PACMAN|Pixel_Generator:Pixel_Gen|Welcome_B:Welcome_Blue|altsyncram:altsyncram_component" CBX_FILE_NAME="altsyncram_9bs3.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|PACMAN|BCD_CONVERTER:Seven_Seg|Division:Div_Dec|lpm_divide:LPM_DIVIDE_component" CBX_FILE_NAME="lpm_divide_dvr.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|PACMAN|Debouncer:Debounce1|my_pll:pll|altpll:altpll_component" CBX_FILE_NAME="my_pll_altpll.v"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|PACMAN|Pixel_Generator:Pixel_Gen|GhostRed:FantasmaR|altsyncram:altsyncram_component" CBX_FILE_NAME="altsyncram_tsr3.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|PACMAN|Debouncer:Debounce2|my_pll:pll|altpll:altpll_component" CBX_FILE_NAME="my_pll_altpll.v"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|PACMAN|Pixel_Generator:Pixel_Gen|Cookies_GB:GalletaG|altsyncram:altsyncram_component" CBX_FILE_NAME="altsyncram_h6s3.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|PACMAN|Pixel_Generator:Pixel_Gen|Game_Over_Mem:EGMem|altsyncram:altsyncram_component" CBX_FILE_NAME="altsyncram_rtr3.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|PACMAN|Pixel_Generator:Pixel_Gen|Welcome_G:Welcome_GR|altsyncram:altsyncram_component" CBX_FILE_NAME="altsyncram_ies3.tdf"/>
+	</PROJECT>
+</LOG_ROOT>

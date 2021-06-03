@@ -1,0 +1,16 @@
+Fitter Status : Successful - Wed Jun 02 15:42:33 2021
+Quartus II 64-Bit Version : 13.0.1 Build 232 06/12/2013 SP 1.22 SJ Full Version
+Revision Name : PACMAN_GAME
+Top-level Entity Name : PACMAN
+Family : Cyclone III
+Device : EP3C16F484C6
+Timing Models : Final
+Total logic elements : 4,522 / 15,408 ( 29 % )
+    Total combinational functions : 4,476 / 15,408 ( 29 % )
+    Dedicated logic registers : 555 / 15,408 ( 4 % )
+Total registers : 555
+Total pins : 53 / 347 ( 15 % )
+Total virtual pins : 0
+Total memory bits : 328,432 / 516,096 ( 64 % )
+Embedded Multiplier 9-bit elements : 0 / 112 ( 0 % )
+Total PLLs : 1 / 4 ( 25 % )

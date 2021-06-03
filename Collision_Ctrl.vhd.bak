@@ -1,0 +1,53 @@
+-- Ruler 1         2         3         4         5         6         7        --
+--****************************************************************************--
+--                     PONTIFICIA UNIVERSIDAD JAVERIANA              
+--                            DiseÃ±o en FPGA
+-- 													             
+-- Titulo :   Control_SFibon
+-- Funcionalidad: Registro que guarda el resultado de la serie de Fibonnacci.                                        
+-- Fecha  :   D:25 M:05 Y:2021                       
+--****************************************************************************--
+
+
+LIBRARY IEEE;
+USE IEEE.STD_LOGIC_1164.ALL;
+USE IEEE.NUMERIC_STD.ALL;
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+ENTITY Collision_Ctrl IS
+
+	GENERIC(	N				: INTEGER:= 10
+				);
+		PORT(	
+				clk 			: IN		STD_LOGIC;
+				rst			: IN		STD_LOGIC;
+				Pixel_x		: IN  	STD_LOGIC_VECTOR(N-1 DOWNTO 0);
+				Pixel_y		: IN		STD_LOGIC_VECTOR(N-1 DOWNTO 0);
+				Collision   : OUT    STD_LOGIC
+			 );
+
+END ENTITY;
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+ARCHITECTURE Behaviour OF Collision_Ctrl IS
+
+	
+	CONSTANT anclaSquare_1_x  : INTEGER := 71 -20;--51;
+	CONSTANT anclaSquare_1_y  : INTEGER := 372-20;--371;
+	
+	SIGNAL   Collision_s      : STD_LOGIC;
+	SIGNAL   pixel_x_s1	     : INTEGER;
+	SIGNAL   pixel_y_s1	     : INTEGER;
+	
+--	71  ---205
+--	372 ---74
+	
+BEGIN
+	pixel_x_s1   <= TO_INTEGER(UNSIGNED(pixel_x));
+	pixel_y_s1 	 <= TO_INTEGER(UNSIGNED(pixel_y));
+	
+	Collision_s <= '1' WHEN (( (pixel_x_s1 >= anclaSquare_1_x) AND (pixel_x_s1 < (anclaSquare_1_x+205)) ) AND ( (pixel_y_s1 >= anclaSquare_1_y) AND  (pixel_y_s1 < (anclaSquare_1_y+ 74))) ) ELSE 
+	               '0';
+	
+	Collision <= Collision_s;
+END ARCHITECTURE;
